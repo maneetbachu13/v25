@@ -37,7 +37,7 @@
         opacity: [0, 1]
     }, '-=200')
     .add({
-        targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title','.s-intro .text-huge1-title'],
+        targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title','.s-intro .text-huge1-title','.s-intro .text-huge-number'],
         translateY: [80, 20],
         opacity: [0, 1],
         delay: anime.stagger(200)
