@@ -2785,38 +2785,47 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00;
+    text-shadow: 0 0 10px #F00, 0 0 20px #F00, 0 0 30px #F00;
+    justify-content: center;
     font-family: 'marvel';
-    color: #FFF;
+    color: #ffffff;
     --text-huge : 12rem;
     font-size   : var(--text-huge);
     line-height : 1.0740;
     margin-top  : 0;
     text-align: center;
     letter-spacing: 5px;
+    padding: 0;
 }
 .text-huge-number {
-    text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00;
+    text-shadow: 0 0 10px #F00, 0 0 20px #F00, 0 0 30px #F00;
     font-family: 'number';
-    color: #FFFFFF;
-    --text-huge : 10rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    --text-huge : 8rem;
     font-size   : var(--text-huge);
     line-height : 1.0740;
     margin-top  : 0;
     text-align: center;
     letter-spacing: 5px;
+    padding: 0;
 }
 .text-huge1-title {
     text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
     font-family: 'marvel';
-    color: #ffffff;
-    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    font-weight: bold;
+    color: #fff;
     letter-spacing: 5px;
     --text-huge1 : 4rem;
     font-size   : var(--text-huge1);
     line-height : 1.0740;
     margin-top  : 0;
     text-align: center;
+    padding-top: 0;
 }
 @keyframes glow {
     0% { text-shadow: 0 0 10px #00f; }
