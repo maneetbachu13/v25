@@ -2785,7 +2785,6 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    text-shadow: 0 0 10px #F00, 0 0 20px #F00, 0 0 30px #F00;
     justify-content: center;
     font-family: 'marvel';
     color: #ffffff;
@@ -2798,7 +2797,6 @@ img.u-pull-left {
     padding: 0;
 }
 .text-huge-number {
-    text-shadow: 0 0 10px #F00, 0 0 20px #F00, 0 0 30px #F00;
     font-family: 'number';
     justify-content: center;
     align-items: center;
@@ -2812,7 +2810,6 @@ img.u-pull-left {
     padding: 0;
 }
 .text-huge1-title {
-    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
     font-family: 'marvel';
     align-items: center;
     justify-content: center;
@@ -2826,11 +2823,6 @@ img.u-pull-left {
     margin-top  : 0;
     text-align: center;
     padding-top: 0;
-}
-@keyframes glow {
-    0% { text-shadow: 0 0 10px #00f; }
-    50% { text-shadow: 0 0 20px #00f, 0 0 30px #00f; }
-    100% { text-shadow: 0 0 10px #00f; }
 }
 /* ------------------------------------------------------------------- 
  * ## MailtoUI style overrides
