@@ -523,6 +523,10 @@ template {
     font-family: 'number';
     src: url('number.ttf') format('truetype');
   }
+@font-face {
+    font-family: 'panther';
+    src: url('panther.ttf') format('truetype');
+  }
 .inlineModuleHeader__header {
     margin-left    : 10px;
     position: relative; /* Ensure pseudo-elements are positioned relative to this */
@@ -2786,7 +2790,7 @@ img.u-pull-left {
 
 .text-huge-title {
     justify-content: center;
-    font-family: 'marvel';
+    font-family: 'panther';
     color: #ffffff;
     --text-huge : 12rem;
     font-size   : var(--text-huge);
