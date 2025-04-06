@@ -3575,6 +3575,7 @@ img.u-pull-left {
 @media screen and (max-width: 900px) {
     .s-intro {
         --text-huge-multiplier : .75;
+        --text-huge1-multiplier : .6;
     }
 
     .intro-content .text-huge-title br {
@@ -3586,6 +3587,7 @@ img.u-pull-left {
     .s-intro {
         --gutter               : 4rem;
         --text-huge-multiplier : .7;
+        --text-huge1-multiplier : .55;
     }
 
     .intro-content {
@@ -3618,6 +3620,7 @@ img.u-pull-left {
     .s-intro {
         --gutter               : 2rem;
         --text-huge-multiplier : .58;
+        --text-huge1-multiplier : .5;
     }
 
     .intro-scrolldown {
@@ -3628,6 +3631,7 @@ img.u-pull-left {
 @media screen and (max-width: 500px) {
     .s-intro {
         --text-huge-multiplier : .55;
+        --text-huge1-multiplier : .45;
     }
 
     .intro-social {
