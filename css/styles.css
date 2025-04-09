@@ -2822,8 +2822,8 @@ img.u-pull-left {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    height: auto;
+    width: 340px;
+    height: 490px;
     top: 0;
     margin-left: 10px;
     margin-right: 10px;
@@ -2839,8 +2839,8 @@ img.u-pull-left {
     transition: .3s all ease;
   }
   .image-wrap-2 img {
-    width: 90%;
-    height: auto;
+    width: 340px;
+    height: 490px;
     filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transition: all .1s ease-in-out;
